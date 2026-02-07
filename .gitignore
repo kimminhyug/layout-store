@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+*.tsbuildinfo
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & caches
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.local
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

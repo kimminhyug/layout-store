@@ -1,0 +1,19 @@
+{
+  "name": "layout-store",
+  "version": "1.0.0",
+  "description": "Layout state store (SSOT) on top of layout-core. No UI/React.",
+  "main": "dist/store.js",
+  "types": "dist/store.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "node dist/store.test.js"
+  },
+  "dependencies": {
+    "layout-core": "file:../layout-core"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
