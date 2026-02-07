@@ -58,4 +58,4 @@ if (
   throw new Error("deterministic: same sequence must yield same state");
 }
 
-console.log("layout-store tests passed");
+console.log("@dashboardity/layout-store tests passed");
