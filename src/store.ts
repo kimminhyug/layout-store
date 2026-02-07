@@ -1,6 +1,6 @@
-import { computeLayout, type GridItem, type LayoutAction } from "layout-core";
+import { computeLayout, type GridItem, type LayoutAction } from "@dashboardity/layout-core";
 
-export type { GridItem, LayoutAction } from "layout-core";
+export type { GridItem, LayoutAction } from "@dashboardity/layout-core";
 
 export type LayoutState = {
   items: GridItem[];
